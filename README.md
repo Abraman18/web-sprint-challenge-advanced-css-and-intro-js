@@ -31,8 +31,8 @@ Please answer the following questions below, you may edit the readme file to inc
 4. What is the purpose of using functions in code?
 	Functions make coding easier by helping you be DRY, and not having to repeat your self with so much code.
 5. How do you access a key inside of an object inside of an array?
-	array.object.key
-	
+	You access it like this: array.object.key
+
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
 ## Instructions
