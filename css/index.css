@@ -31,7 +31,6 @@ body{
 h1, p, .name, .bio {	
     font-family: 'Raleway', sans-serif;	
     text-align: center;	
-    margin: 4%;	
 }	
 h1{
     font-size:6rem;
@@ -161,12 +160,12 @@ button:hover{
     }
     .artist{
         width:fit-content ;
-        margin: 10% 25%;
+        margin: 2% 25%;
         
     }
     .artists img{
-        width: 80%
-        height:0;
+        /* width: 50%;
+        height:0; */
     }
     .bio{
         width:100%;
