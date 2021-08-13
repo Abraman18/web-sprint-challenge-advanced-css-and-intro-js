@@ -246,6 +246,7 @@ If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 function get20s(array) {
   var newArray = [];
   for (let i = 0; i < array.length; i++){
+    // looping over array and creating a new array out of the years within the years section to access and create the if statement.
     let splitYears = array[i].years.split("-");
     if (splitYears[0] >= 1900 && splitYears[1] <= 2000) {
       newArray.push(array[i].name);
@@ -313,6 +314,7 @@ For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte
 function lotsOfArt(array) {
   let paintForDays = [];
   for (let i = 0; i < array.length; i++){
+    // looping ove array to find paintings over 100 with if statement and then adding them to new array using push method.
     if (array[i].paintings >= 100) {
       paintForDays.push(array[i].name);
     }
